@@ -13,7 +13,7 @@ python3 main_continual.py \
     --precision 16 \
     --optimizer sgd \
     --scheduler warmup_cosine \
-    --lr 0.1 \
+    --lr 0.06 \
     --weight_decay 1e-4 \
     --batch_size 64 \
     --min_scale 0.9 \

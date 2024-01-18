@@ -10,6 +10,7 @@ from cassle.utils import (
     pretrain_dataloader,
     projectors,
     sinkhorn_knopp,
+    transfer_datasets,
 )
 
 __all__ = [
@@ -23,6 +24,7 @@ __all__ = [
     "metrics",
     "momentum",
     "sinkhorn_knopp",
+    "transfer_datasets",
 ]
 
 try:
